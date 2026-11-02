@@ -1,0 +1,30 @@
+{
+  "building": {
+    "count_2015": 9,
+    "count_2026": 14,
+    "count_change": 5,
+    "area_share_2015": 0.102,
+    "area_share_2026": 0.223
+  },
+  "airplane": {
+    "count_2015": 13,
+    "count_2026": 11,
+    "count_change": -2,
+    "area_share_2015": 0.042,
+    "area_share_2026": 0.045
+  },
+  "car": {
+    "count_2015": 0,
+    "count_2026": 0,
+    "count_change": 0,
+    "area_share_2015": 0.0,
+    "area_share_2026": 0.0
+  },
+  "tree": {
+    "count_2015": 0,
+    "count_2026": 7,
+    "count_change": 7,
+    "area_share_2015": 0.0,
+    "area_share_2026": 0.007
+  }
+}

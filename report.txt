@@ -1,0 +1,16 @@
+VERIFICATION
+- Building counts 9 to 14 are directionally plausible but inflated by fragmentation: the main terminal is 1 red box in 2015 vs 3 red boxes in 2026, and small red boxes include canopies/walkways.
+- Airplane counts 13 to 11 look overcounted in 2015: 3 small yellow boxes on jet bridges are false positives, not aircraft; 2026 yellow boxes align better with ~11-12 visible aircraft but miss a partial aircraft at far left.
+- Car counts 0 to 0 are wrong - many small vehicles are visible in parking areas in both original images but missed (cyan=car absent). Tree count 0 to 7 is not individual trees but fragmented lime boxes on vegetation patches.
+
+WHAT CHANGED
+- Main passenger terminal roof footprint expanded substantially westward, visible in image 1 vs 2 and consistent with rough building area_share increase from 0.102 to 0.223.
+- Former bare soil / construction land west and northwest of terminal is now built up: new large white-roof hangar and expanded dark-roof complex, plus denser landscaping.
+- Vegetated/green cover west and southwest of the terminal increased compared to bare earth in 2015, seen in original images and as lime patch detections; aircraft presence on the apron remains broadly similar.
+
+2050 SCENARIO
+Assuming continued traffic demand and available land with planning support, hypothesis is that the terminal and apron could see further incremental expansion and infill development with maintained or increased landscaping. Assuming warmer and more variable rainfall, hypothesis is that heat and water stress could increase vegetation maintenance needs and surface reflection, but this is not a prediction.
+
+CONFIDENCE AND LIMITS
+- Moderate confidence for terminal expansion and greening/infill, which are visually verified; low confidence for exact counts and area_share, which are rough bounding-box estimates prone to fragmentation and false positives.
+- Single-date snapshots only show instantaneous aircraft and vehicle presence, limited by resolution, shadows and detector misses/false positives; trend conclusions require multi-date time series and ground validation.
