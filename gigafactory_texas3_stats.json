@@ -1,0 +1,65 @@
+{
+  "factory building": {
+    "kind": "object",
+    "area_share_2015": 0.001,
+    "area_share_2025": 0.094,
+    "area_change": 0.093,
+    "count_2015": 3,
+    "count_2025": 10,
+    "count_change": 7
+  },
+  "solar panel": {
+    "kind": "area",
+    "area_share_2015": 0.0,
+    "area_share_2025": 0.0,
+    "area_change": 0.0
+  },
+  "parking lot": {
+    "kind": "area",
+    "area_share_2015": 0.0,
+    "area_share_2025": 0.0,
+    "area_change": 0.0
+  },
+  "road": {
+    "kind": "area",
+    "area_share_2015": 0.019,
+    "area_share_2025": 0.008,
+    "area_change": -0.01
+  },
+  "river": {
+    "kind": "area",
+    "area_share_2015": 0.012,
+    "area_share_2025": 0.0,
+    "area_change": -0.012
+  },
+  "forest": {
+    "kind": "area",
+    "area_share_2015": 0.0,
+    "area_share_2025": 0.0,
+    "area_change": 0.0
+  },
+  "cleared land": {
+    "kind": "area",
+    "area_share_2015": 0.0,
+    "area_share_2025": 0.0,
+    "area_change": 0.0
+  },
+  "pond": {
+    "kind": "object",
+    "area_share_2015": 0.0,
+    "area_share_2025": 0.0,
+    "area_change": 0.0,
+    "count_2015": 0,
+    "count_2025": 0,
+    "count_change": 0
+  },
+  "vehicle": {
+    "kind": "object",
+    "area_share_2015": 0.0,
+    "area_share_2025": 0.0,
+    "area_change": 0.0,
+    "count_2015": 0,
+    "count_2025": 0,
+    "count_change": 0
+  }
+}

@@ -1,0 +1,17 @@
+VERIFICATION
+- Factory building: Directionally correct. The main Gigafactory (ca 1.5 km long) in the 2025 overlay is largely covered by the red translucent mask and small southern industrial buildings are boxed in 2015, so the 0.1% to 9.4% area increase and count 3 to 10 captures growth. Coverage is good but slightly generalized and count under-segments ancillary sheds.
+- Parking lot / road / river: Not credible. Parking lot 0% both years is a major false negative - 2025 shows >10 ha of organized paved lots east/northeast of the factory packed with vehicles with no deepskyblue/silver masks. Road 1.9% to 0.8% decrease contradicts extensive new internal roads (no silver masks in either overlay). River 1.2% to 0% does not mean disappearance - blue mask is present in 2015 overlay but absent in 2025 while the Colorado River remains visible.
+- Forest / cleared land / pond / vehicle / solar panel: All 0% counts implausible except solar. Forest and cleared land 0% ignores quarry/cleared ground in 2015 and denser riparian forest in 2025. Vehicle 0 misses thousands of cars and pond 0 misses new retention ponds SE of the factory. Solar panel 0 appears plausible - the TESLA lettering is not panels.
+
+WHAT CHANGED
+- Gigafactory construction on the northern plateau: bare quarried scrub with dirt tracks in 2015 to a large linear factory building with TESLA roof pattern plus south annex and NE logistics building by 2025.
+- Extensive new paved infrastructure east/northeast of the factory: multiple gridded parking/storage lots and circulation roads where scrub/cleared land was before.
+- Southern area stable as sanity check: substation/complex south of the river and the southern forested meander loop persist in same position, with only modest greening/field upkeep, confirming co-registration.
+- Riparian corridor unchanged in position but appears more vegetated in 2025, and a visible horizontal stitching seam crosses the 2025 mosaic mid-image at the river - tone/color jump and edge misalignment on the west - indicating composite imagery to exclude from interpretation.
+
+2050 SCENARIO
+Hypothesis: Assuming continued industrial use and floodplain/riparian protections remain, infill and densification of remaining vacant lots on the northern plateau is more likely than expansion south of the river. Hypothesis: Assuming incentives for on-site energy continue, large roof areas could be retrofitted with solar, but this is not a prediction and depends on economics and grid policy.
+
+CONFIDENCE AND LIMITS
+- High confidence in the large factory and lot/road addition (visually unequivocal); low confidence in quantitative area_share and counts for parking, road, river, forest, pond, vehicle due to systematic misses and absence of masks.
+- Limits: mask-based shares are unreliable when large classes are missed; seasonal illumination and the visible seam limit vegetation/water interpretation; area and count metrics are not comparable and do not capture partial coverage or bleed.
