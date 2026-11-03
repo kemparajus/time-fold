@@ -56,7 +56,12 @@ Produced with the earlier box-based version (`Timefold.py`).
 - Files: `before_annotated.png`, `after_annotated.png`, `report.txt`, `stats.json`
 - 
 
-![Airport before and after](airport_side_by_side.png)
+![Airport before (2015)](before_annotated.png)
+
+
+
+
+![Airport after (2026)](after_annotated.png)
 
 ### 2. Tesla Gigafactory Texas, Austin (2015 vs 2025)
 
