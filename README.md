@@ -54,7 +54,9 @@ Produced with the earlier box-based version (`Timefold.py`).
   car count of 0 that contradicted the images, and one terminal split into several
   building boxes.
 - Files: `before_annotated.png`, `after_annotated.png`, `report.txt`, `stats.json`
+- 
 
+![Airport_before_and_after](airport_side_by_side.png)
 ### 2. Tesla Gigafactory Texas, Austin (2015 vs 2025)
 
 
