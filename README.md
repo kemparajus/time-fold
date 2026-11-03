@@ -70,8 +70,15 @@ unchanged, which is a useful sanity check.
 Lesson from an early run: SAM found the smaller buildings but missed the huge
 factory roof, because tiling cut it into slices. That led to the multi-scale
 design and to Spark being asked to check specifically for missed large structures.
-Latest mask-based results: TODO paste the key numbers and one or two lines from
-gigafactory_texas3_report.txt after the final run.
+Latest mask-based result -
+"factory building": {
+    "kind": "object",
+    "area_share_2015": 0.001,
+    "area_share_2025": 0.094,
+    "area_change": 0.093,
+    "count_2015": 3,
+    "count_2025": 10,
+    "count_change": 7
 
 Files: gigafactory_texas3_
 
