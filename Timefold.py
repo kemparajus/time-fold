@@ -17,7 +17,7 @@ import requests
 from PIL import Image, ImageDraw
 
 # ============ SETTINGS: edit only this block ============
-API_KEY = "LLM_1742347480827078_LQB5lnPkawfozK7BvzcdvlgJqtQ"      # keep private, never share this
+API_KEY = "YOUR_API_KEY"      # keep private, never share this
 BEFORE_IMAGE = "before.png"
 BEFORE_YEAR = 2015                   # real capture year shown on the map
 AFTER_IMAGE = "after.png"
