@@ -19,9 +19,9 @@ plain-language summary of what changed and says how far the automatic
 numbers can be trusted.
 
 ## What makes this more than an image describer
-1. **It measures.** SAM 3.1 returns boxes and pixel masks, so every class
-   (buildings, vehicles, parking, roads, river, forest, cleared land, ponds,
-   solar panels) gets a count or a true area share, per year.
+1. 1. **It measures.** SAM 3.1 returns boxes and pixel masks, so every class it can
+   find (for example buildings) gets a count and a true area share, per year.
+   Where it fails, the audit says so.
 2. **It audits itself.** Spark receives the original images **and** the
    detection overlays, and has to say which results look right, which look wrong,
    and whether a large structure was missed.
@@ -45,17 +45,32 @@ numbers can be trusted.
 
 ## Examples
 
-### 1. Kempegowda International Airport, Bengaluru (2015 vs 2026)
+- ### 1. Kempegowda International Airport, Bengaluru (2015 vs 2026)
 Produced with the earlier box-based version (`Timefold.py`).
 
-- The main terminal expanded markedly westward, and land that was bare in 2015
-  was built up by 2026.
-- Spark's audit flagged detector mistakes: jet bridges counted as airplanes, a
-  car count of 0 that contradicted the images, and one terminal split into several
-  building boxes.
-- Files: `before_annotated.png`, `after_annotated.png`, `report.txt`, `stats.json`
-- 
 
+
+![Airport before (2015)](before_annotated.png)
+
+
+
+
+![Airport after (2026)](after_annotated.png)
+
+
+
+- SAM's rough box-based results: building count 9 to 14 and building area share
+  about 0.10 to 0.22. Airplane count 13 to 11. Car count 0 to 0. Tree count 0 to 7.
+- Spark's audit judged most of these counts unreliable: building counts are inflated
+  because the main terminal is one box in 2015 but three boxes in 2026; three small
+  "airplanes" in 2015 are actually jet bridges; the car count of 0 is wrong because
+  many vehicles are visible in the parking areas; and the "trees" are fragmented
+  boxes on vegetation patches, not individual trees.
+- What Spark judged trustworthy from the images: the terminal roof footprint
+  expanded substantially westward, and former bare soil and construction land west
+  and northwest of the terminal is now built up (new large white-roof hangar and an
+  expanded dark-roof complex), with more landscaping. Confidence: moderate.
+- Files: `before_annotated.png`, `after_annotated.png`, `report.txt`, `stats.json`
 ![Airport before (2015)](before_annotated.png)
 
 
@@ -69,16 +84,23 @@ Produced with the earlier box-based version (`Timefold.py`).
 ![Gigafactory before and after](gigafactory_texas3_side_by_side.png)
 
 
-- Before: excavated pits with small ponds. After: a very large factory building
+- Before: excavated pits with small ponds.
+- After: a very large factory building with a TESLA pattern on its roof, large parking and trailer staging areas, and new access roads.
   with rooftop solar panels, large parking and trailer staging areas, and new
   access roads. The Colorado River and the forest south of the site look largely
   unchanged, which is a useful sanity check.
 - Lesson from an early run: SAM found the smaller buildings but **missed the huge
   factory roof**, because tiling cut it into slices. That led to the multi-scale
   design and to Spark being asked to check specifically for missed large structures.
-- Latest mask-based results: TODO paste the key numbers and one or two lines from
-  `gigafactory_texas3_report.txt`.
-- Files: `gigafactory_texas3_*`
+- Latest mask-based run, as audited by Spark: SAM covered the main factory well
+  (area share about 0.1% in 2015 to about 9.4% in 2025; count 3 to 10, which
+  under-segments small sheds). Spark flagged that SAM missed the parking lots,
+  vehicles, new ponds and most roads, and outlined the river only in 2015 even
+  though it is still there, so those numbers are not usable.
+- Spark's reading of the change: bare quarried scrub in 2015 became a long factory
+  building with a TESLA roof pattern, plus new paved lots and roads to the east and
+  northeast. The area south of the river is stable and works as a sanity check. A
+  visible stitching seam crosses the 2025 image near the river.
 
 ## Limitations (stated honestly)
 - Detections and areas are indicative, not ground-truthed.
