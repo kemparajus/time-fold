@@ -122,7 +122,7 @@ Check the provider's terms before reusing it.
 1. Open Google Colab and create a new notebook.
 2. Upload your two screenshots (folder icon, or `files.upload()`). Run `!ls` to
    check the exact file names.
-3. Paste the whole of `timefold_full.py` into one cell.
+3. Paste the whole of `timefold.py` into one cell.
 4. Edit only the **settings block**: your API key, the two image names, the two
    **real capture years**, and the place name.
 5. Run the cell. Results are saved next to the notebook and downloaded.
