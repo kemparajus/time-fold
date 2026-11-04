@@ -113,7 +113,7 @@ Imagery belongs to its provider and is used here only to demonstrate the method.
 Check the provider's terms before reusing it.
 
 ## Repository
-- `timefold_full.py`: current version (multi-scale SAM, mask-based area, Spark audit)
+- `tesla_gigafactory.py`: current version (multi-scale SAM, mask-based area, Spark audit)
 - `Timefold.py`: earlier box-based version used for the airport example
 - Example outputs: annotated images, side-by-side picture, `report.txt`, `stats.json`
 - `LICENSE`: MIT
