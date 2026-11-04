@@ -71,12 +71,7 @@ Produced with the earlier box-based version (`Timefold.py`).
   and northwest of the terminal is now built up (new large white-roof hangar and an
   expanded dark-roof complex), with more landscaping. Confidence: moderate.
 - Files: `before_annotated.png`, `after_annotated.png`, `report.txt`, `stats.json`
-![Airport before (2015)](before_annotated.png)
 
-
-
-
-![Airport after (2026)](after_annotated.png)
 
 ### 2. Tesla Gigafactory Texas, Austin (2015 vs 2025)
 
