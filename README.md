@@ -9,7 +9,7 @@ Built for the **Meta Global AI Developer Hackathon**, Indie Developer track,
 **Push the Frontier** theme (helping people understand a physical system, here
 the changing land around us).
 
-- Demo video: TODO add your YouTube link
+- Demo video: https://youtu.be/6dSWdRqxdwA?si=gSWrtWrqeZXfitzX
 - Models: SAM 3.1 and Muse Spark 1.2 through the Meta Model API
 
 ## Why
@@ -19,7 +19,7 @@ plain-language summary of what changed and says how far the automatic
 numbers can be trusted.
 
 ## What makes this more than an image describer
-1. 1. **It measures.** SAM 3.1 returns boxes and pixel masks, so every class it can
+1. **It measures.** SAM 3.1 returns boxes and pixel masks, so every class it can
    find (for example buildings) gets a count and a true area share, per year.
    Where it fails, the audit says so.
 2. **It audits itself.** Spark receives the original images **and** the
